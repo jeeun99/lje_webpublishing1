@@ -30,6 +30,9 @@ a {
   padding-top: 10px;
   object-fit: contain;
 }
+.personal {
+  padding-top: 0.5rem;
+}
 .personal > a {
   position: relative;
   padding-left: 0.5rem;
@@ -154,6 +157,7 @@ a {
 }
 .sec2_inner a > img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   position: absolute;
   bottom: 0;
@@ -313,13 +317,17 @@ a {
   width: 200px;
 }
 .copy {
-  width: calc(100% - 200px - 20%);
+  width: calc(100% - 200px - 25%);
   padding-left: 1rem;
 }
 .snsicon {
-  width: 20%;
+  width: 25%;
   display: flex;
   text-align: center;
+  font-size: 0.75rem;
+}
+.snsicon > a {
+  width: calc(100% / 3);
 }
 .snsicon a > img {
   width: 50%;
@@ -338,8 +346,14 @@ a {
     padding: 1rem;
     cursor: pointer;
     text-align: center;
-    border: 1px solid #444;
+    border: 1px solid #33333350;
+    border-right: transparent;
     border-radius: 2rem 0 0 2rem;
+  }
+  .imgTitle li.on {
+    background-color: dodgerblue;
+    color: #fff;
+    border: 1px solid dodgerblue;
   }
   .tabImg {
     width: 70%;
@@ -505,7 +519,7 @@ a {
     font-size: 0.5rem;
   }
   .snsicon {
-    width: 30%;
+    width: 22%;
     position: absolute;
     top: 1rem;
     right: 0;
