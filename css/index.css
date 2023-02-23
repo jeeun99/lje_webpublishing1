@@ -369,6 +369,7 @@ a {
   border-right: transparent;
   border-radius: 2rem 0 0 2rem;
 }
+.imgTitle li:hover,
 .imgTitle li.on {
   background-color: dodgerblue;
   color: #fff;
