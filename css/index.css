@@ -341,20 +341,7 @@ a {
   .imgTitle {
     width: 30%;
   }
-  .imgTitle li {
-    margin-top: 5px;
-    padding: 1rem;
-    cursor: pointer;
-    text-align: center;
-    border: 1px solid #33333350;
-    border-right: transparent;
-    border-radius: 2rem 0 0 2rem;
-  }
-  .imgTitle li.on {
-    background-color: dodgerblue;
-    color: #fff;
-    border: 1px solid dodgerblue;
-  }
+
   .tabImg {
     width: 70%;
     position: relative;
@@ -371,6 +358,21 @@ a {
   .tabImg li.on img {
     display: block;
   }
+}
+
+.imgTitle li {
+  margin-top: 5px;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #33333350;
+  border-right: transparent;
+  border-radius: 2rem 0 0 2rem;
+}
+.imgTitle li.on {
+  background-color: dodgerblue;
+  color: #fff;
+  border: 1px solid dodgerblue;
 }
 
 @media (max-width: 860px) {
